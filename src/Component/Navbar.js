@@ -20,6 +20,11 @@ function Navbar() {
       text-decoration: none;
       color: inherit;
     }
+    @media only screen and (max-width: 600px) {
+      li {
+        margin-right: 15px;
+      }
+    }
   `;
   return (
     <Nav>

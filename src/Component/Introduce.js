@@ -18,6 +18,10 @@ function Introduce() {
     font-family: "Yellowtail", cursive;
     text-align: center;
     font-size: 120px;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 80px;
+    }
   `;
 
   const Title = styled.div`
@@ -25,12 +29,20 @@ function Introduce() {
     text-align: center;
     margin-top: 10px;
     font-size: 45px;
+    @media only screen and (max-width: 600px) {
+      font-size: 25px;
+    }
   `;
 
   const Picture = styled.div`
     margin-top: 100px;
     img {
       height: 400px;
+    }
+    @media only screen and (max-width: 600px) {
+      img {
+        height: 350px;
+      }
     }
   `;
 
