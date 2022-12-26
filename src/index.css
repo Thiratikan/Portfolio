@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "AvenirHeavy";
+  src: url("./Fonts/Avenir\ Heavy.ttf");
+}
+@font-face {
+  font-family: "AvenirLight";
+  src: url("./Fonts/Avenir\ Light.ttf");
+}
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Pacifico&family=Yellowtail&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
