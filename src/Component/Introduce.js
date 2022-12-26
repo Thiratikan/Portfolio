@@ -40,6 +40,7 @@ function Introduce() {
       height: 400px;
     }
     @media only screen and (max-width: 600px) {
+      margin-top: 50px;
       img {
         height: 350px;
       }
