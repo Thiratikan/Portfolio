@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Introduce from "./Introduce";
 import Experience from "./Experience";
 import Projects from "./Projects";
-import Contract from "./Contract";
+import Contact from "./Contact";
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
       <Introduce />
       <Experience />
       <Projects />
-      <Contract />
+      <Contact />
     </>
   );
 }

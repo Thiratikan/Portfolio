@@ -35,14 +35,14 @@ function Introduce() {
   `;
 
   const Picture = styled.div`
-    margin-top: 100px;
+    margin-top: 80px;
     img {
-      height: 400px;
+      height: 300px;
     }
     @media only screen and (max-width: 600px) {
-      margin-top: 50px;
+      margin-top: 40px;
       img {
-        height: 350px;
+        height: 250px;
       }
     }
   `;
