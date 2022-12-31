@@ -8,7 +8,7 @@ function Introduce() {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-color: white;
 
@@ -42,7 +42,7 @@ function Introduce() {
     @media only screen and (max-width: 600px) {
       margin-top: 40px;
       img {
-        height: 250px;
+        height: 180px;
       }
     }
   `;

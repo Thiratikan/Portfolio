@@ -4,18 +4,19 @@ import styled from "styled-components";
 function Navbar() {
   const Nav = styled.div`
     background: transparent;
-    padding: 20px;
     font-family: "AvenirLight";
     font-size: 20px;
-    ul {
-      display: flex;
-      flex-direction: row;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    div {
       space-between: center;
       justify-content: end;
+      padding: 20px;
+
+      width: 100%;
     }
-    li {
-      margin-right: 80px;
-    }
+
     a {
       text-decoration: none;
       color: inherit;
@@ -28,17 +29,15 @@ function Navbar() {
   `;
   return (
     <Nav>
-      <ul>
-        <li>
-          <a href="#experience">Experience</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#contract">Contract</a>
-        </li>
-      </ul>
+      <div>
+        <a href="#experience">Experience</a>
+      </div>
+      <div>
+        <a href="#projects">Projects</a>
+      </div>
+      <div>
+        <a href="#contract">Contract</a>
+      </div>
     </Nav>
   );
 }

@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "FeedMe",
+      "imgcover": "./images/covers/feedmeCover.jpg",
+      "desc": "Have you ever got stuck on what to cook for today? The feedMe application helps you decide what to cook and drink by random item in the category. The application also gives you instructions on how to cook the dishes and your new favorite cocktails.",
+      "detail": "",
+      "img": "./images/projectInfo/feedme.JPG"
+    },
+    {
+      "id": 2,
+      "title": "MamaGreen",
+      "imgcover": "./images/covers/mamagreenCover.JPG",
+      "desc": "MamaGreen is your choice. The perfect application can search for the plant and show how to take care of them. You can ensure that the plant's name you look up is correct by seeing the picture with the result below the search bar!",
+      "detail": "",
+      "img": "./images/projectInfo/mamagreen.JPG"
+    },
+    {
+      "id": 3,
+      "title": "RiceMenu",
+      "imgcover": "./images/covers/ricemenuCover.jpg",
+      "desc": "Menu from Rice restaurant in 14th DC.",
+      "detail": "",
+      "img": "./images/projectInfo/ricemenu.jpg"
+    },
+    {
+      "id": 4,
+      "title": "SaveIt",
+      "imgcover": "./images/covers/saveitCover.jpg",
+      "desc": "It is an application that can create a personal account that is able to create a folder and save files such as pictures and store it in firebase.",
+      "detail": "",
+      "img": "./images/projectInfo/saveit.JPG"
+    },
+    {
+      "id": 5,
+      "title": "NewsApp",
+      "imgcover": "./images/covers/newsappCover.jpg",
+      "desc": "Updated everyday tech news that is able to search what you have just heard.",
+      "detail": "",
+      "img": "./images/projectInfo/newsapp.JPG"
+    },
+    {
+      "id": 6,
+      "title": "MovieSeat",
+      "imgcover": "./images/covers/movieseatCover.jpg",
+      "desc": "The web application that lets the users select the seats from the movie theatre.",
+      "detail": "",
+      "img": "./images/projectInfo/movieseat.JPG"
+    },
+    {
+      "id": 7,
+      "title": "PhotoSell",
+      "imgcover": "./images/covers/photosellCover.jpg",
+      "desc": "Selling pictures application which most of the pictures categorize based on the season, including spring, summer, fall, and winter vibes.",
+      "detail": "",
+      "img": "./images/projectInfo/photosell.JPG"
+    },
+    {
+      "id": 8,
+      "title": "HuluClone",
+      "imgcover": "./images/covers/hulucloneCover.JPG",
+      "desc": "Cloning Hulu website",
+      "detail": "",
+      "img": "./images/projectInfo/huluclone.JPG"
+    }
+  ]
+}

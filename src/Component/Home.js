@@ -9,8 +9,8 @@ function Home() {
     <>
       <Navbar />
       <Introduce />
-      <Experience />
       <Projects />
+      <Experience />
       <Contact />
     </>
   );
