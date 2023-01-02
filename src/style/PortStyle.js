@@ -10,7 +10,7 @@ export const Title = styled.div`
   font-size: 160px;
   position: absolute;
   z-index: -1;
-  margin-left: 800px;
+  margin-left: 760px;
   @media only screen and (max-width: 600px) {
     font-size: 78px;
     margin-left: 0px;
@@ -19,9 +19,10 @@ export const Title = styled.div`
 `;
 
 export const PROJECT = styled.div`
+margin-top: 400px;
   img {
     height: 450px;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-bottom: 200px;
   }
   div {
@@ -32,7 +33,7 @@ export const PROJECT = styled.div`
     font-family: "Gugi", cursive;
     font-size: 80px;
     position: absolute;
-    margin-left: 1200px;
+    margin-left: 1100px;
     margin-top: -15px;
     width: 200px;
   }
@@ -42,11 +43,12 @@ export const PROJECT = styled.div`
     position: absolute;
     width: 650px;
     margin-left: 900px;
-    margin-top: 100px;
+    margin-top: 110px;
   }
 
 
   @media only screen and (max-width: 600px) {
+    margin-top: 0px;
     img {
       height: 250px;
       width: 300px;
