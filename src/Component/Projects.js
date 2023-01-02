@@ -1,7 +1,6 @@
 import React from "react";
 import { Title, PROJECT, Info } from "../style/PortStyle";
 import Data from "./projectsData.json";
-import styled from "styled-components";
 
 function Projects() {
   return (
