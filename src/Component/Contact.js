@@ -4,7 +4,7 @@ import { CONTACT } from "../style/stylingInfo";
 function Contact() {
   return (
     <CONTACT>
-      <a href="https://github.com/Thiratikan">
+      <a id="contact" href="https://github.com/Thiratikan">
         <img src="/images/github-mark.png" alt="" />
       </a>
       <h1>thiratikan@gmail.com</h1>

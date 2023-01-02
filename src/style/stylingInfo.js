@@ -31,4 +31,15 @@ export const CONTACT = styled.div`
   .name {
     font-family: "Righteous", cursive;
   }
+
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 12px;
+    }
+    div {
+      display: grid;
+      gap: 0px;
+      margin-top: 10px;
+    }
+  }
 `;

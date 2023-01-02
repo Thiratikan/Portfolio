@@ -4,13 +4,13 @@ import Data from "./projectsData.json";
 
 function Projects() {
   return (
-    <PROJECT>
+    <PROJECT id="projects">
       <Info>
         {Data.data.map((item) => {
           const { id, imgcover, title, desc } = item;
           return (
             <div key={id}>
-              <Title id="projects">PROJECTS</Title>
+              <Title>PROJECTS</Title>
               <div>
                 <img src={imgcover} alt={""} />
                 <h1>{title}</h1>

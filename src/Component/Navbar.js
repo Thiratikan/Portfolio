@@ -29,14 +29,14 @@ function Navbar() {
   `;
   return (
     <Nav>
-      <div>
+      {/* <div>
         <a href="#experience">Experience</a>
-      </div>
+      </div> */}
       <div>
         <a href="#projects">Projects</a>
       </div>
       <div>
-        <a href="#contract">Contract</a>
+        <a href="#contact">Contact</a>
       </div>
     </Nav>
   );
