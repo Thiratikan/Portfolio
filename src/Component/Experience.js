@@ -1,22 +1,10 @@
 import React from "react";
-import styled from "styled-components";
-import { Title } from "../style/PortStyle";
+import { HeadTitle } from "../style/stylingInfo";
 
 function Experience() {
-  const Container = styled.section`
-    blackground-color: white;
-  `;
-
-  const Body = styled.div``;
   return (
     <>
-      <Container>
-        <div>
-          <Title id="experience">ABOUT ME</Title>
-
-          <Body></Body>
-        </div>
-      </Container>
+      <HeadTitle id="experience">ABOUT ME</HeadTitle>
     </>
   );
 }

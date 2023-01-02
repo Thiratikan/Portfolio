@@ -6,7 +6,7 @@ export const Info = styled.div`
 
 export const Title = styled.div`
   font-family: "AvenirHeavy";
-  color: #eee;
+  color: #e5e5e5;
   font-size: 160px;
   position: absolute;
   z-index: -1;
