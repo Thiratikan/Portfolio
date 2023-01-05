@@ -14,7 +14,6 @@ function Projects() {
               <div>
                 <img src={imgcover} alt={""} />
                 <h1>{title}</h1>
-
                 <h2>{desc}</h2>
               </div>
             </div>

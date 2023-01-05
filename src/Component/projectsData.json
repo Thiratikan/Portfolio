@@ -43,7 +43,7 @@
     {
       "id": 6,
       "title": "MovieSeat",
-      "imgcover": "./images/covers/movieseatCover.jpg",
+      "imgcover": "./images/covers/movieseatCover.JPG",
       "desc": "The web application that lets the users select the seats from the movie theatre.",
       "detail": "",
       "img": "./images/projectInfo/movieseat.JPG"

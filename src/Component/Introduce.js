@@ -51,7 +51,7 @@ function Introduce() {
     <>
       <Container>
         <Picture>
-          <img src="/images/profilepic.jpeg" alt="" />
+          <img src="/images/profilepic.PNG" alt="" />
         </Picture>
         <Name className="animate__animated animate__fadeIn">Thiratikan </Name>
         <Title className="animate__animated animate__pulse">

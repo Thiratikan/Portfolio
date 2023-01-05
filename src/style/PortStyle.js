@@ -10,7 +10,7 @@ export const Title = styled.div`
   font-size: 160px;
   position: absolute;
   z-index: -1;
-  margin-left: 760px;
+  margin-left: 620px;
   @media only screen and (max-width: 600px) {
     font-size: 78px;
     margin-left: 0px;
@@ -33,7 +33,7 @@ margin-top: 400px;
     font-family: "Gugi", cursive;
     font-size: 80px;
     position: absolute;
-    margin-left: 1100px;
+    margin-left: 950px;
     margin-top: -15px;
     width: 200px;
   }
@@ -42,7 +42,7 @@ margin-top: 400px;
     text-indent: 80px;
     position: absolute;
     width: 650px;
-    margin-left: 900px;
+    margin-left: 720px;
     margin-top: 110px;
   }
 
