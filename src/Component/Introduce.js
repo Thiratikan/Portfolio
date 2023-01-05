@@ -11,8 +11,6 @@ function Introduce() {
     height: 100vh;
     width: 100%;
     background-color: white;
-
-    /* border: 1px solid blue; */
   `;
   const Name = styled.div`
     font-family: "Yellowtail", cursive;
@@ -27,7 +25,7 @@ function Introduce() {
   const Title = styled.div`
     font-family: "AvenirRoman";
     text-align: center;
-    margin-top: 10px;
+    margin-top: -30px;
     font-size: 45px;
     @media only screen and (max-width: 600px) {
       font-size: 25px;
@@ -35,14 +33,13 @@ function Introduce() {
   `;
 
   const Picture = styled.div`
-    margin-top: 80px;
     img {
-      height: 300px;
+      height: 320px;
     }
     @media only screen and (max-width: 600px) {
       margin-top: -200px;
       img {
-        height: 180px;
+        height: 220px;
       }
     }
   `;
