@@ -16,10 +16,13 @@ function Skills() {
     h1 {
       margin-bottom: 50px;
       text-align: center;
-      margin-top: 290px;
+      margin-top: 200px;
       padding-top: 120px;
       font-family: "Gugi", cursive;
       font-size: 80px;
+      @media only screen and (max-width: 600px) {
+        margin-top: 20px;
+      }
     }
     ul {
       display: grid;
@@ -43,6 +46,9 @@ function Skills() {
       margin-right: auto;
       left: 0;
       right: 0;
+      @media only screen and (max-width: 600px) {
+        padding: 40px;
+      }
     }
   `;
   return (

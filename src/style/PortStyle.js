@@ -64,6 +64,8 @@ margin-top: 200px;
       font-size: 30px;
       position: absolute;
       margin-left: 20px;
+      margin-top: 280px;
+     
       
     }
     h2 {
@@ -73,6 +75,7 @@ margin-top: 200px;
       width: 350px;
       padding: 20px;
       margin-left: 0px;
+      margin-top: 305px;
 
   }
  

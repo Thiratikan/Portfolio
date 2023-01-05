@@ -25,7 +25,7 @@ function Introduce() {
   const Title = styled.div`
     font-family: "AvenirRoman";
     text-align: center;
-    margin-top: -30px;
+    margin-top: -10px;
     font-size: 45px;
     @media only screen and (max-width: 600px) {
       font-size: 25px;
