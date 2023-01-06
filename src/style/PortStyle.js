@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const PROJECT = styled.div`
 margin-top: 200px;
 position: absolute;
-left: 10%;
+left: 13%;
   img {
     height: 450px;
 
@@ -42,7 +42,7 @@ left: 10%;
 
   @media only screen and (max-width: 600px) {
     margin-top: 0px;
-   
+    left: 5%;
     img {
       height: 250px;
       width: 300px;
