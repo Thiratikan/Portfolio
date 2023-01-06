@@ -19,6 +19,9 @@ function Projects() {
                 <img src={imgcover} alt={""} />
                 <h1>{title}</h1>
                 <h2>{desc}</h2>
+                <button type="button" class="btn btn-secondary">
+                  READ MORE
+                </button>
               </div>
             </div>
           );

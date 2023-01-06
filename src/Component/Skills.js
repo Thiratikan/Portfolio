@@ -7,12 +7,10 @@ function Skills() {
     width: 100%;
     background-image: url("./images/BGskills.png");
     background-size: cover;
-
     /* border: 1px solid blue; */
   `;
   const Main = styled.section`
     color: black;
-
     h1 {
       margin-bottom: 50px;
       text-align: center;
@@ -20,15 +18,12 @@ function Skills() {
       padding-top: 120px;
       font-family: "Gugi", cursive;
       font-size: 80px;
-      @media only screen and (max-width: 600px) {
-        margin-top: 20px;
-      }
     }
     ul {
       display: grid;
       align-items: center;
       row-gap: 35px;
-      grid-template-columns: 215px 100px;
+      grid-template-columns: 215px 200px;
     }
     li {
       font-size: 20px;
@@ -38,16 +33,28 @@ function Skills() {
       border-style: solid;
       border-radius: 50px;
       border-color: black;
-      padding: 60px;
-      width: 300px;
-      height: 220px;
+      padding: 50px;
+      width: 500px;
+      height: 360px;
       position: absolute;
       margin-left: auto;
       margin-right: auto;
       left: 0;
       right: 0;
-      @media only screen and (max-width: 600px) {
-        padding: 40px;
+    }
+    @media only screen and (max-width: 600px) {
+      div {
+        padding: 0px;
+        padding-top: 20px;
+        width: 350px;
+        height: 250px;
+      }
+      h1 {
+        margin-top: 20px;
+      }
+      ul {
+        row-gap: 25px;
+        grid-template-columns: 160px 160px;
       }
     }
   `;
@@ -60,9 +67,9 @@ function Skills() {
             <li>&#9787; HTML</li>
             <li>&#9787; CSS</li>
             <li>&#9787; JavaScript</li>
-            <li>&#9787; React.s</li>
+            <li>&#9787; React.js</li>
             <li>&#9787; Bootstrap</li>
-            <li>&#9787; Git</li>
+            <li>&#9787; Git/Github</li>
             <li>&#9787; Python</li>
             <li>&#9787; Java</li>
           </ul>

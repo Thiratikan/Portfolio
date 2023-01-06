@@ -17,7 +17,7 @@ export const CONTACT = styled.div`
   text-align: center;
   position: absolute;
   width: 100%;
-  margin-top: 3750px;
+  margin-top: 4100px;
 
   div {
     display: inline-flex;
