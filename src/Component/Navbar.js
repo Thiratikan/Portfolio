@@ -13,7 +13,6 @@ function Navbar() {
       space-between: center;
       justify-content: end;
       padding: 20px;
-
       width: 100%;
     }
 
@@ -29,9 +28,9 @@ function Navbar() {
   `;
   return (
     <Nav>
-      {/* <div>
-        <a href="#experience">Experience</a>
-      </div> */}
+      <div>
+        <a href="#skills">Skills</a>
+      </div>
       <div>
         <a href="#projects">Projects</a>
       </div>

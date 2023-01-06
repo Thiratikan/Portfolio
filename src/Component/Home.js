@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import Introduce from "./Introduce";
-// import Experience from "./Experience";
+import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 
@@ -9,8 +9,8 @@ function Home() {
     <>
       <Navbar />
       <Introduce />
+      <Skills />
       <Projects />
-      {/* <Experience /> */}
       <Contact />
     </>
   );

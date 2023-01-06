@@ -1,16 +1,13 @@
 import styled from "styled-components";
 
-export const Info = styled.div`
-  margin-bottom: 20px;
-`;
-
 export const Title = styled.div`
   font-family: "AvenirHeavy";
   color: #e5e5e5;
   font-size: 160px;
   position: absolute;
   z-index: -1;
-  margin-left: 760px;
+  margin-left: 620px;
+  margin-top: 0px;
   @media only screen and (max-width: 600px) {
     font-size: 78px;
     margin-left: 0px;
@@ -19,11 +16,11 @@ export const Title = styled.div`
 `;
 
 export const PROJECT = styled.div`
-margin-top: 400px;
+margin-top: 200px;
   img {
     height: 450px;
     margin-left: 5%;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
   div {
     background-image: none;
@@ -33,7 +30,7 @@ margin-top: 400px;
     font-family: "Gugi", cursive;
     font-size: 80px;
     position: absolute;
-    margin-left: 1100px;
+    margin-left: 950px;
     margin-top: -15px;
     width: 200px;
   }
@@ -42,7 +39,7 @@ margin-top: 400px;
     text-indent: 80px;
     position: absolute;
     width: 650px;
-    margin-left: 900px;
+    margin-left: 720px;
     margin-top: 110px;
   }
 
@@ -55,7 +52,8 @@ margin-top: 400px;
       margin: 0;
       align-items: center;
       padding: 20px;
-      margin-left: 20px;margin-bottom: 180px;
+      margin-left: 20px;
+      margin-bottom: 180px;
     }
     div {
       background-image: none;
@@ -67,6 +65,8 @@ margin-top: 400px;
       position: absolute;
       margin-left: 20px;
       margin-top: 280px;
+     
+      
     }
     h2 {
       text-indent: 20px;
@@ -75,7 +75,8 @@ margin-top: 400px;
       width: 350px;
       padding: 20px;
       margin-left: 0px;
-      margin-top: 310px;
+      margin-top: 305px;
+
   }
  
 `;
