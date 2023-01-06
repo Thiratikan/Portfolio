@@ -1,39 +1,30 @@
 import React from "react";
-import { Title, PROJECT } from "../style/PortStyle";
+import { PROJECT } from "../style/PortStyle";
 import Data from "./projectsData.json";
-import TechTap from "./TechTap";
+import styled from "styled-components";
 
 function Projects() {
+  const Container = styled.div`
+    height: 100vh;
+  `;
   return (
-    <PROJECT id="projects">
-<<<<<<< HEAD
-      <Info>
+    <Container>
+      <PROJECT id="projects">
         {Data.data.map((item) => {
           const { id, imgcover, title, desc } = item;
           return (
             <div key={id}>
-              <Title>PROJECTS</Title>
+              <div className="title">PROJECTS</div>
               <div>
                 <img src={imgcover} alt={""} />
                 <h1>{title}</h1>
                 <h2>{desc}</h2>
               </div>
-=======
-      {Data.data.map((item) => {
-        const { id, imgcover, title, desc } = item;
-        return (
-          <div key={id}>
-            <Title>PROJECTS</Title>
-            <div>
-              <img src={imgcover} alt={""} />
-              <h1>{title}</h1>
-              <h2>{desc}</h2>
->>>>>>> bdaafdd3dd5efd1970d44425b9d47565b1372d23
             </div>
-          </div>
-        );
-      })}
-    </PROJECT>
+          );
+        })}
+      </PROJECT>
+    </Container>
   );
 }
 

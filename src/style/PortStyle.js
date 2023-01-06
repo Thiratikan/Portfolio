@@ -1,25 +1,12 @@
 import styled from "styled-components";
 
-export const Title = styled.div`
-  font-family: "AvenirHeavy";
-  color: #e5e5e5;
-  font-size: 160px;
-  position: absolute;
-  z-index: -1;
-  margin-left: 620px;
-  margin-top: 0px;
-  @media only screen and (max-width: 600px) {
-    font-size: 78px;
-    margin-left: 0px;
-    margin-top: 290px;
-  }
-`;
-
 export const PROJECT = styled.div`
 margin-top: 200px;
+position: absolute;
+left: 10%;
   img {
     height: 450px;
-    margin-left: 5%;
+
     margin-bottom: 100px;
   }
   div {
@@ -42,10 +29,20 @@ margin-top: 200px;
     margin-left: 720px;
     margin-top: 110px;
   }
+  .title {
+    font-family: "AvenirHeavy";
+  color: #e5e5e5;
+  font-size: 160px;
+  position: absolute;
+  z-index: -1;
+  margin-left: 620px;
+  margin-top: 0px;
+ }
 
 
   @media only screen and (max-width: 600px) {
     margin-top: 0px;
+    left: 15%;
     img {
       height: 250px;
       width: 300px;
@@ -77,6 +74,11 @@ margin-top: 200px;
       margin-left: 0px;
       margin-top: 305px;
 
+  }
+  .title {
+    font-size: 78px;
+    margin-left: 0px;
+    margin-top: 290px;
   }
  
 `;

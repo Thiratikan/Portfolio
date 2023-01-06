@@ -11,10 +11,14 @@ export const HeadTitle = styled.div`
 `;
 
 export const CONTACT = styled.div`
-  background-color: #ebecf0;
+  background-color: #e5e5e5;
   color: #14303f;
   padding: 15px;
   text-align: center;
+  position: absolute;
+  width: 100%;
+  margin-top: 3750px;
+
   div {
     display: inline-flex;
     gap: 15px;
@@ -33,6 +37,7 @@ export const CONTACT = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
+    margin-top: 3000px;
     h1 {
       font-size: 12px;
     }
