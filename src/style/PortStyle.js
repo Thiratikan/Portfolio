@@ -42,7 +42,7 @@ left: 13%;
 
   @media only screen and (max-width: 600px) {
     margin-top: 0px;
-    left: 5%;
+    left: 1%;
     img {
       height: 250px;
       width: 300px;
