@@ -11,7 +11,7 @@ function Projects() {
     <Container>
       <PROJECT id="projects">
         {Data.data.map((item) => {
-          const { id, imgcover, title, desc } = item;
+          const { id, imgcover, title, desc, link, github } = item;
           return (
             <div key={id}>
               <div className="title">PROJECTS</div>
@@ -19,9 +19,15 @@ function Projects() {
                 <img src={imgcover} alt={""} />
                 <h1>{title}</h1>
                 <h2>{desc}</h2>
-                <button type="button" class="btn btn-secondary">
+                <a href={link} className="link">
+                  <img src="./images/link.png" alt="" />
+                </a>
+                <a href={github} className="github">
+                  <img src="./images/github-mark.png" alt="" />
+                </a>
+                {/* <button type="button" class="btn btn-secondary">
                   READ MORE
-                </button>
+                </button> */}
               </div>
             </div>
           );

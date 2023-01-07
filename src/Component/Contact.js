@@ -7,6 +7,7 @@ function Contact() {
       <a id="contact" href="https://github.com/Thiratikan">
         <img src="/images/github-mark.png" alt="" />
       </a>
+
       <h1>thiratikan@gmail.com</h1>
       <div>
         <h1>COPYRIGHT©2023 </h1>

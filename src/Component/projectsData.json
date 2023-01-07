@@ -6,7 +6,9 @@
       "imgcover": "./images/covers/feedmeCover.jpg",
       "desc": "Have you ever got stuck on what to cook for today? The feedMe application helps you decide what to cook and drink by random item in the category. The application also gives you instructions on how to cook the dishes and your new favorite cocktails.",
       "detail": "",
-      "img": "./images/projectInfo/feedme.JPG"
+      "img": "./images/projectInfo/feedme.JPG",
+      "link": "https://feedmee.netlify.app/",
+      "github": "https://github.com/Thiratikan/FeedMe"
     },
     {
       "id": 2,
@@ -14,7 +16,9 @@
       "imgcover": "./images/covers/mamagreenCover.JPG",
       "desc": "MamaGreen is your choice. The perfect application can search for the plant and show how to take care of them. You can ensure that the plant's name you look up is correct by seeing the picture with the result below the search bar!",
       "detail": "",
-      "img": "./images/projectInfo/mamagreen.JPG"
+      "img": "./images/projectInfo/mamagreen.JPG",
+      "link": "https://mamagreen.netlify.app/",
+      "github": "https://github.com/Thiratikan/MamaGreen"
     },
     {
       "id": 3,
@@ -22,7 +26,9 @@
       "imgcover": "./images/covers/ricemenuCover.jpg",
       "desc": "Menu from Rice restaurant in 14th DC.",
       "detail": "",
-      "img": "./images/projectInfo/ricemenu.jpg"
+      "img": "./images/projectInfo/ricemenu.jpg",
+      "link": "https://riceresmenu.netlify.app/",
+      "github": "https://github.com/Thiratikan/RiceMenu"
     },
     {
       "id": 4,
@@ -30,7 +36,9 @@
       "imgcover": "./images/covers/saveitCover.jpg",
       "desc": "It is an application that can create a personal account that is able to create a folder and save files such as pictures and store it in firebase.",
       "detail": "",
-      "img": "./images/projectInfo/saveit.JPG"
+      "img": "./images/projectInfo/saveit.JPG",
+      "link": "",
+      "github": "https://github.com/Thiratikan/SaveIt"
     },
     {
       "id": 5,
@@ -38,7 +46,9 @@
       "imgcover": "./images/covers/newsappCover.jpg",
       "desc": "Updated everyday tech news that is able to search what you have just heard.",
       "detail": "",
-      "img": "./images/projectInfo/newsapp.JPG"
+      "img": "./images/projectInfo/newsapp.JPG",
+      "link": "",
+      "github": "https://github.com/Thiratikan/NewsAPP"
     },
     {
       "id": 6,
@@ -46,7 +56,9 @@
       "imgcover": "./images/covers/movieseatCover.JPG",
       "desc": "The web application that lets the users select the seats from the movie theatre.",
       "detail": "",
-      "img": "./images/projectInfo/movieseat.JPG"
+      "img": "./images/projectInfo/movieseat.JPG",
+      "link": "",
+      "github": "https://github.com/Thiratikan/movie-seat-project"
     },
     {
       "id": 7,
@@ -54,7 +66,9 @@
       "imgcover": "./images/covers/photosellCover.jpg",
       "desc": "Selling pictures application which most of the pictures categorize based on the season, including spring, summer, fall, and winter vibes.",
       "detail": "",
-      "img": "./images/projectInfo/photosell.JPG"
+      "img": "./images/projectInfo/photosell.JPG",
+      "link": "",
+      "github": "https://github.com/Thiratikan/PhotoSell"
     },
     {
       "id": 8,
@@ -62,7 +76,9 @@
       "imgcover": "./images/covers/hulucloneCover.JPG",
       "desc": "Cloning Hulu website",
       "detail": "",
-      "img": "./images/projectInfo/huluclone.JPG"
+      "img": "./images/projectInfo/huluclone.JPG",
+      "link": "https://tkhulu.netlify.app/",
+      "github": "https://github.com/Thiratikan/HULU"
     }
   ]
 }

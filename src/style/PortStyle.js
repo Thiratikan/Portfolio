@@ -4,6 +4,7 @@ export const PROJECT = styled.div`
 margin-top: 200px;
 position: absolute;
 left: 13%;
+
   img {
     height: 450px;
 
@@ -38,7 +39,20 @@ left: 13%;
   margin-left: 620px;
   margin-top: 0px;
  }
+ a img{
+  display: flex;
+  height: 25px;
+}
 
+.link {
+  margin-left: 720px;
+  margin-top: -180px;
+}
+
+.github {
+  margin-left: 770px;
+  margin-top: -180px;
+}
 
   @media only screen and (max-width: 600px) {
     margin-top: 0px;
