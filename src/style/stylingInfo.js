@@ -37,7 +37,7 @@ export const CONTACT = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-    margin-top: 3000px;
+    margin-top: 3200px;
     h1 {
       font-size: 12px;
     }
