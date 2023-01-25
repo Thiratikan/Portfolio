@@ -13,10 +13,10 @@ function Projects() {
         {Data.data.map((item) => {
           const { id, imgcover, title, desc, link, github } = item;
           return (
-            <div key={id}>
+            <div className="DIV" key={id}>
+              <img src={imgcover} alt={""} />
               <div className="title">PROJECTS</div>
-              <div>
-                <img src={imgcover} alt={""} />
+              <div className="detail">
                 <h1>{title}</h1>
                 <h2>{desc}</h2>
                 <a href={link} className="link">
@@ -25,10 +25,10 @@ function Projects() {
                 <a href={github} className="github">
                   <img src="./images/github-mark.png" alt="" />
                 </a>
-                {/* <button type="button" class="btn btn-secondary">
+              </div>
+              {/* <button type="button" class="btn btn-secondary">
                   READ MORE
                 </button> */}
-              </div>
             </div>
           );
         })}
