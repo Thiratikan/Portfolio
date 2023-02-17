@@ -43,6 +43,7 @@ export const PROJECT = styled.div`
 
   @media only screen and (max-width: 600px) {
     margin-top: 100px;
+
     img {
       height: 250px;
       width: 250px;
