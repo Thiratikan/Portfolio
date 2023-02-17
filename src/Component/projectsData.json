@@ -1,6 +1,16 @@
 {
   "data": [
     {
+      "id": 0,
+      "title": "CatchingSunset",
+      "imgcover": "./images/covers/catchingsunset.jpg",
+      "desc": "CatchingSunset is a web application created by React.js. The application allows users to randomly pick their destination and plan their budget for the trip.",
+      "detail": "",
+      "img": "./images/projectInfo/feedme.JPG",
+      "link": "https://catchingsunset.netlify.app",
+      "github": "https://github.com/Thiratikan/CatchingSunset"
+    },
+    {
       "id": 1,
       "title": "FeedMe",
       "imgcover": "./images/covers/feedmeCover.jpg",
