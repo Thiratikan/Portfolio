@@ -4,8 +4,14 @@ import { CONTACT } from "../style/stylingInfo";
 function Contact() {
   return (
     <CONTACT>
+      <a id="contact" href="https://www.linkedin.com/in/thiratikan">
+        <img src="/images/in.png" alt="" />
+      </a>
       <a id="contact" href="https://github.com/Thiratikan">
         <img src="/images/github-mark.png" alt="" />
+      </a>
+      <a id="contact" href="https://devpost.com/Thiratikan">
+        <img src="/images/devpost.png" alt="" />
       </a>
       <h1>thiratikan@gmail.com</h1>
       <div>
