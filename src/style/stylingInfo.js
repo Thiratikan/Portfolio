@@ -30,6 +30,8 @@ export const CONTACT = styled.div`
   }
   img {
     width: 32px;
+    margin-bottom: 20px;
+    margin-left: 10px;
   }
 
   .name {
@@ -37,7 +39,7 @@ export const CONTACT = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-    margin-top: 3000px;
+    margin-top: 3200px;
     h1 {
       font-size: 12px;
     }
