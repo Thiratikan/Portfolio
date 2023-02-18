@@ -4,7 +4,7 @@
       "id": 0,
       "title": "CatchingSunset",
       "imgcover": "./images/covers/catchingsunset.jpg",
-      "desc": "CatchingSunset is a web application created by React.js. The application allows users to randomly pick their destination and plan their budget for the trip.",
+      "desc": "24-hour project creating for the Devpost hackathon. CatchingSunset is a web application that allows users to pick the destination to travel to randomly. The application also lets people plan their budget, what they need to pay, and how much the trip would cost.",
       "detail": "",
       "img": "./images/projectInfo/feedme.JPG",
       "link": "https://catchingsunset.netlify.app",
