@@ -19,9 +19,11 @@ function Projects() {
               <div className="detail">
                 <h1>{title}</h1>
                 <h2>{desc}</h2>
-                <a href={link} className="link">
-                  <img src="./images/link.png" alt="" />
-                </a>
+                {link ? (
+                  <a href={link} className="link">
+                    <img src="./images/link.png" alt="" />{" "}
+                  </a>
+                ) : null}
                 <a href={github} className="github">
                   <img src="./images/github-mark.png" alt="" />
                 </a>

@@ -37,6 +37,7 @@ export const PROJECT = styled.div`
   a img {
     height: 25px;
   }
+
   .github {
     margin-left: 20px;
   }
