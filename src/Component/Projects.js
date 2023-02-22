@@ -21,7 +21,7 @@ function Projects() {
                 <h2>{desc}</h2>
                 {link ? (
                   <a href={link} className="link">
-                    <img src="./images/link.png" alt="" />{" "}
+                    <img src="./images/link.png" alt="" />
                   </a>
                 ) : null}
                 <a href={github} className="github">
