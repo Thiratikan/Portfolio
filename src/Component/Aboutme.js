@@ -4,7 +4,7 @@ import { Main } from "../style/AboutmeStyle";
 function Aboutme() {
   return (
     <Main>
-      <h1>About Me</h1>
+      <h1>ABOUT ME</h1>
       <h2>
         A front-end developer who creates beautiful and responsive user
         interfaces that bring your digital vision to life. With a keen eye for

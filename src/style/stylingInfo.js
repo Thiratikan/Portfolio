@@ -17,7 +17,7 @@ export const CONTACT = styled.div`
   text-align: center;
   position: absolute;
   width: 100%;
-  margin-top: 4600px;
+  margin-top: 300rem;
 
   div {
     display: inline-flex;
@@ -38,8 +38,12 @@ export const CONTACT = styled.div`
     font-family: "Righteous", cursive;
   }
 
+  @media only screen and (max-width: 1250px) {
+    margin-top: 230rem;
+  }
+
   @media only screen and (max-width: 600px) {
-    margin-top: 3600px;
+    margin-top: 250rem;
     h1 {
       font-size: 12px;
     }

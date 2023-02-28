@@ -11,6 +11,19 @@ function Introduce() {
     height: 100vh;
     width: 100%;
     background-color: white;
+    h1 {
+      font-family: "AvenirRoman";
+      font-size: 30px;
+    }
+    @media only screen and (max-width: 1000px) {
+      h1 {
+        width: 20rem;
+        text-align: center;
+        margin: auto;
+        margin: 0;
+        font-size: 15px;
+      }
+    }
   `;
   const Name = styled.div`
     font-family: "Yellowtail", cursive;
@@ -54,6 +67,9 @@ function Introduce() {
         <Title className="animate__animated animate__pulse">
           FRONT-END DEVELOPER
         </Title>
+        <h1>
+          Delivers beautiful, responsive interfaces with optimized performance.
+        </h1>
       </Container>
     </>
   );

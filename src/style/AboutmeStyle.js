@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   height: 100vh;
-  width: 100%;
   background-image: url("./images/BGskills.png");
   background-size: cover;
+  margin-top: 20rem;
   /* border: 1px solid blue; */
   div {
     display: flex;
@@ -13,6 +13,24 @@ export const Container = styled.section`
     padding: 5rem;
   }
   .abtme {
+  }
+  @media only screen and (max-width: 1500px) {
+    div {
+      padding: 15px;
+    }
+    .abtme {
+      margin-right: 5rem;
+    }
+  }
+  @media only screen and (max-width: 1250px) {
+    div {
+      flex-direction: column;
+      align-items: center;
+    }
+    .abtme {
+      margin-right: 0rem;
+      margin-bottom: 5rem;
+    }
   }
 `;
 export const Main = styled.section`
@@ -50,19 +68,52 @@ export const Main = styled.section`
     height: 360px;
     margin-top: 4rem;
   }
+  @media only screen and (max-width: 1500px) {
+    h2 {
+      width: 35rem;
+    }
+  }
+
+  @media only screen and (max-width: 1250px) {
+    div {
+      flex-direction: column;
+      align-items: center;
+    }
+    h2 {
+      width: 35rem;
+    }
+    h1 {
+      align-items: center;
+      margin: auto;
+    }
+  }
+
   @media only screen and (max-width: 600px) {
+    margin-top: 0rem;
     div {
       padding: 0px;
       padding-top: 20px;
       width: 350px;
       height: 250px;
+      align-items: center;
+      margin: auto;
+      margin-top: 20px;
     }
     h1 {
+      margin-top: 20px;
+      font-size: 60px;
+    }
+    h2 {
+      width: 23rem;
+      align-items: center;
+      font-size: 20px;
+      margin: auto;
       margin-top: 20px;
     }
     ul {
       row-gap: 25px;
       grid-template-columns: 160px 160px;
+      align-items: center;
     }
   }
 `;

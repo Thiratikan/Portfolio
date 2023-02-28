@@ -44,8 +44,47 @@ export const PROJECT = styled.div`
     margin-left: 20px;
   }
 
+  @media only screen and (max-width: 1500px) {
+    img {
+      height: 400px;
+    }
+    h2 {
+      font-size: 28px;
+      width: 600px;
+    }
+    .title {
+      font-size: 130px;
+    }
+  }
+  @media only screen and (max-width: 1250px) {
+    margin-top: 500px;
+    .detail {
+      margin-left: 40px;
+    }
+    img {
+      height: 300px;
+    }
+    .title {
+      font-size: 120px;
+      margin-left: 380px;
+    }
+  }
+
+  @media only screen and (max-width: 990px) {
+    .DIV {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 50px;
+    }
+    .title {
+      font-size: 120px;
+      margin-left: 0px;
+      margin-top: 350px;
+    }
+  }
+
   @media only screen and (max-width: 600px) {
-    margin-top: 100px;
+    margin-top: 200px;
     img {
       height: 250px;
       width: 250px;
@@ -57,11 +96,7 @@ export const PROJECT = styled.div`
     .detail {
       margin-left: 20px;
     }
-    .DIV {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 50px;
-    }
+
     h1 {
       font-family: "Gugi", cursive;
       font-size: 40px;
@@ -74,7 +109,6 @@ export const PROJECT = styled.div`
     }
     .title {
       font-size: 70px;
-      margin-left: 0px;
       margin-top: 200px;
     }
   }
