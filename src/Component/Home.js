@@ -4,6 +4,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import styled from "styled-components";
+import Meandskills from "./Meandskills";
 
 function Home() {
   const Wrapper = styled.div`
@@ -15,7 +16,7 @@ function Home() {
     <Wrapper>
       <Navbar />
       <Introduce />
-      <Skills />
+      <Meandskills />
       <Projects />
       <Contact />
     </Wrapper>

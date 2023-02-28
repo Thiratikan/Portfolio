@@ -25,6 +25,8 @@ export const PROJECT = styled.div`
     font-family: "Roboto", sans-serif;
     text-indent: 80px;
     width: 700px;
+    text-align: justify;
+    text-justify: inter-character;
   }
   .title {
     font-family: "AvenirHeavy";

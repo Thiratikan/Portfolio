@@ -29,6 +29,9 @@ function Navbar() {
   return (
     <Nav>
       <div>
+        <a href="#skills">About Me</a>
+      </div>
+      <div>
         <a href="#skills">Skills</a>
       </div>
       <div>
