@@ -64,10 +64,8 @@ function Introduce() {
           <img src="/images/profilepic.PNG" alt="" />
         </Picture>
         <Name className="animate__animated animate__fadeIn">Thiratikan </Name>
-        <Title className="animate__animated animate__pulse">
-          FRONT-END DEVELOPER
-        </Title>
-        <h1>
+        <Title className="animate__heartBeat">FRONT-END DEVELOPER</Title>
+        <h1 className="animate__animated animate__pulse">
           Delivers beautiful, responsive interfaces with optimized performance.
         </h1>
       </Container>
