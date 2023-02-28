@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Main } from "../style/AboutmeStyle";
+import { Main } from "../style/AboutmeStyle";
 
 function Skills() {
   return (
