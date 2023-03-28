@@ -13,11 +13,21 @@ function Home() {
   `;
   return (
     <Wrapper>
-      <Navbar />
-      <Introduce />
-      <Meandskills />
-      <Projects />
-      <Contact />
+      <section className="hidden">
+        <Navbar />
+      </section>
+      <section className="hidden">
+        <Introduce />
+      </section>
+      <section className="hidden">
+        <Meandskills />
+      </section>
+      <section className="hidden">
+        <Projects />
+      </section>
+      <section className="hidden">
+        <Contact />
+      </section>
     </Wrapper>
   );
 }
