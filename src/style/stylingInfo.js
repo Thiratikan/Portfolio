@@ -42,6 +42,10 @@ export const CONTACT = styled.div`
     margin-top: 230rem;
   }
 
+  @media only screen and (max-width: 990px) {
+    margin-top: 300rem;
+  }
+
   @media only screen and (max-width: 600px) {
     margin-top: 250rem;
     h1 {

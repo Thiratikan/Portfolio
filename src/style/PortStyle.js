@@ -10,6 +10,16 @@ export const PROJECT = styled.div`
     align-items: center;
     margin-bottom: 150px;
   }
+
+  .DIV.odd {
+    flex-direction: row-reverse;
+    .detail {
+      margin-right: 100px;
+    }
+    .title {
+      margin-right: 6.5em;
+    }
+  }
   .detail {
     margin-left: 100px;
   }
@@ -76,10 +86,23 @@ export const PROJECT = styled.div`
       flex-direction: column;
       margin-bottom: 50px;
     }
+
     .title {
       font-size: 120px;
       margin-left: 0px;
       margin-top: 350px;
+    }
+    .DIV.odd {
+      flex-direction: column;
+
+      .title {
+        font-size: 120px;
+        margin-left: 6.5em;
+        margin-top: 350px;
+      }
+      .detail {
+        margin-left: 100px;
+      }
     }
   }
 
@@ -110,6 +133,13 @@ export const PROJECT = styled.div`
     .title {
       font-size: 70px;
       margin-top: 200px;
+    }
+    .DIV.odd {
+      flex-direction: column;
+      .title {
+        font-size: 70px;
+        margin-top: 200px;
+      }
     }
   }
 `;

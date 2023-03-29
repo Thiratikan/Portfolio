@@ -10,10 +10,12 @@ function Projects() {
   return (
     <Container>
       <PROJECT id="projects">
-        {Data.data.map((item) => {
+        {Data.data.map((item, index) => {
           const { id, imgcover, title, desc, link, github } = item;
+          const isEven = index % 2 === 0; // check if index is even
+          const className = isEven ? "even" : "odd"; // apply class based on index
           return (
-            <div className="DIV" key={id}>
+            <div className={`DIV ${className}`} key={id}>
               <img src={imgcover} alt={""} />
               <div className="title">PROJECTS</div>
               <div className="detail">

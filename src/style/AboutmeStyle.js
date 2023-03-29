@@ -87,6 +87,8 @@ export const Main = styled.section`
       margin: auto;
     }
   }
+  @media only screen and (max-width: 990px) {
+  }
 
   @media only screen and (max-width: 600px) {
     margin-top: 0rem;
