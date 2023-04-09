@@ -52,11 +52,12 @@ export const Main = styled.section`
   ul {
     display: grid;
     align-items: center;
-    row-gap: 35px;
-    grid-template-columns: 215px 200px;
+    row-gap: 20px;
+    grid-template-columns: 160px 160px 130px;
+    margin-top: -25px;
   }
   li {
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Gugi", cursive;
   }
   div {
@@ -86,6 +87,9 @@ export const Main = styled.section`
       align-items: center;
       margin: auto;
     }
+    ul {
+      margin-top: 20px;
+    }
   }
   @media only screen and (max-width: 990px) {
   }
@@ -113,9 +117,13 @@ export const Main = styled.section`
       margin-top: 20px;
     }
     ul {
-      row-gap: 25px;
-      grid-template-columns: 160px 160px;
+      row-gap: 7px;
+      grid-template-columns: 100px 100px 80px;
       align-items: center;
+      margin-top: -5px;
+    }
+    li {
+      font-size: 13px;
     }
   }
 `;
