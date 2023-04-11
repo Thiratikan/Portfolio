@@ -5,6 +5,7 @@ export const Container = styled.section`
   background-image: url("./images/BGskills.png");
   background-size: cover;
   margin-top: 20rem;
+
   /* border: 1px solid blue; */
   div {
     display: flex;
@@ -26,6 +27,7 @@ export const Container = styled.section`
     div {
       flex-direction: column;
       align-items: center;
+      margin-right: 0px;
     }
     .abtme {
       margin-right: 0rem;
@@ -60,7 +62,7 @@ export const Main = styled.section`
     font-size: 18px;
     font-family: "Gugi", cursive;
   }
-  div {
+  .skill {
     border-style: solid;
     border-radius: 50px;
     border-color: black;
@@ -96,7 +98,7 @@ export const Main = styled.section`
 
   @media only screen and (max-width: 600px) {
     margin-top: 0rem;
-    div {
+    .skill {
       padding: 0px;
       padding-top: 20px;
       width: 350px;
@@ -108,6 +110,7 @@ export const Main = styled.section`
     h1 {
       margin-top: 20px;
       font-size: 60px;
+      padding: 20px;
     }
     h2 {
       width: 23rem;

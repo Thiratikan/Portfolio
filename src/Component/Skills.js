@@ -6,7 +6,7 @@ function Skills() {
     <>
       <Main>
         <h1 id="skills">SKILLS</h1>
-        <div>
+        <div className="skill">
           <ul>
             <li>&#9787; HTML</li>
             <li>&#9787; CSS</li>
@@ -30,7 +30,7 @@ function Skills() {
             <li>&#9787; Firebase</li>
             <li>&#9787; JSON</li>
           </ul>
-        </div>
+          </div>
       </Main>
     </>
   );
