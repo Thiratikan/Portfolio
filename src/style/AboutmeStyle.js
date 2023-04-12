@@ -2,18 +2,27 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   height: 100vh;
-  background-image: url("./images/BGskills.png");
-  background-size: cover;
-  margin-top: 20rem;
 
   /* border: 1px solid blue; */
   div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 5rem;
+    padding: 10rem;
   }
   .abtme {
+    background-image: url("./images/skBG.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .sk {
+    background-image: url("./images/skBG.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
   }
   @media only screen and (max-width: 1500px) {
     div {
@@ -33,6 +42,24 @@ export const Container = styled.section`
     .abtme {
       margin-right: 0rem;
       margin-bottom: 2rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    div {
+      flex-direction: column;
+      align-items: center;
+
+      padding: 0px;
+    }
+    .abtme {
+      background-image: url("./images/skBG.png");
+      background-position: center;
+      background-size: cover;
+    }
+    .sk {
+      background-image: url("./images/skBG.png");
+      background-position: center;
+      background-size: cover;
     }
   }
 `;

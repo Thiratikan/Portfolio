@@ -7,7 +7,7 @@ export const Container = styled.section`
   align-items: center;
   height: 100vh;
   width: 100%;
-  background-color: white;
+  background-color: transparent;
   /* background-image: url("./images/BGintro.png");
     background-size: cover; */
 

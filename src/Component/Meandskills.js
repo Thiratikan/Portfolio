@@ -10,7 +10,7 @@ function Meandskills() {
         <div className="abtme">
           <Aboutme />
         </div>
-        <div>
+        <div className="sk">
           <Skills />
         </div>
       </div>

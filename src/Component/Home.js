@@ -10,15 +10,22 @@ function Home() {
     position: relative;
     min-height: 100vh;
     margin: 0;
+
+    .bg {
+      background-image: url("./images/portBG.png");
+      background-size: cover;
+    }
   `;
   return (
     <Wrapper>
-      <section className="hidden">
-        <Navbar />
-      </section>
-      <section className="hidden">
-        <Introduce />
-      </section>
+      <div className="bg">
+        <section className="hidden">
+          <Navbar />
+        </section>
+        <section className="hidden">
+          <Introduce />
+        </section>
+      </div>
       <section className="hidden">
         <Meandskills />
       </section>
