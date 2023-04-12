@@ -30,7 +30,7 @@ function Skills() {
             <li>&#9787; Firebase</li>
             <li>&#9787; JSON</li>
           </ul>
-          </div>
+        </div>
       </Main>
     </>
   );

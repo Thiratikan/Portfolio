@@ -27,7 +27,8 @@ export const Container = styled.section`
     div {
       flex-direction: column;
       align-items: center;
-      margin-right: 0px;
+
+      padding: 0px;
     }
     .abtme {
       margin-right: 0rem;
@@ -98,6 +99,7 @@ export const Main = styled.section`
 
   @media only screen and (max-width: 600px) {
     margin-top: 0rem;
+
     .skill {
       padding: 0px;
       padding-top: 20px;
