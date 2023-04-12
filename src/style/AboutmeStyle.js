@@ -32,7 +32,7 @@ export const Container = styled.section`
     }
     .abtme {
       margin-right: 0rem;
-      margin-bottom: 5rem;
+      margin-bottom: 2rem;
     }
   }
 `;
@@ -113,13 +113,15 @@ export const Main = styled.section`
       margin-top: 20px;
       font-size: 60px;
       padding: 20px;
+      width: 100%;
     }
     h2 {
-      width: 23rem;
+      width: 100%;
       align-items: center;
       font-size: 20px;
       margin: auto;
-      margin-top: 20px;
+      margin-top: 5px;
+      padding: 2rem;
     }
     ul {
       row-gap: 7px;
