@@ -103,6 +103,7 @@ export const Container = styled.section`
     }
   }
 `;
+
 export const Name = styled.div`
   font-family: "Yellowtail", cursive;
   text-align: center;

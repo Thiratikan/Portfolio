@@ -66,6 +66,7 @@ export const PROJECT = styled.div`
       font-size: 130px;
     }
   }
+
   @media only screen and (max-width: 1250px) {
     margin-top: 500px;
     .detail {
