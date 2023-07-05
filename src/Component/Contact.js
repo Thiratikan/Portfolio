@@ -12,7 +12,7 @@ function Contact() {
         <img src="/images/in.png" alt="" />
       </a>
       <a id="contact" href="https://devpost.com/thiratikan">
-        <img src="/images/devpost.png" alt="" />
+        <img className="dev" src="/images/devpost.png" alt="" />
       </a>
       <h1>thiratikan@gmail.com</h1>
       <div>

@@ -11,7 +11,7 @@ export const HeadTitle = styled.div`
 `;
 
 export const CONTACT = styled.div`
-  background-color: #e5e5e5;
+  background-color: white;
   color: #14303f;
   padding: 15px;
   text-align: center;
@@ -30,8 +30,13 @@ export const CONTACT = styled.div`
   }
   img {
     width: 32px;
-    margin-bottom: 20px;
+    height: auto;
+    margin-bottom: 10px;
     margin-left: 10px;
+  }
+  .dev {
+    width: 35px;
+    height: 28px;
   }
 
   .name {
