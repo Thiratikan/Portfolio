@@ -11,7 +11,7 @@ function Introduce() {
         </Picture>
         <Name className="animate__animated animate__fadeIn">Thiratikan </Name>
         <Title className="animate__animated animate__pulse">
-          FRONT-END DEVELOPER
+          WEB DEVELOPER
         </Title>
         <a href="/File/resume.pdf" download="Thiratikan_Resume">
           <button>
